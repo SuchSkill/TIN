@@ -1,0 +1,19 @@
+form {
+    background-color: aqua;
+    border-style:groove;
+}
+form input, #area, #list {
+    background-color: antiquewhite;
+    border-style:double;
+
+}
+label {
+    background-color: beige;
+}
+#list{
+    border-style:double;
+}
+button{
+    background-color: cadetblue;
+    border-style:ridge;
+}
