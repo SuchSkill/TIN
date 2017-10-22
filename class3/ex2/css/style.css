@@ -1,0 +1,29 @@
+img {
+    width: 400px;
+    display: table;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border:outset;
+}
+.page{
+    padding-top: 10px;
+    width: 550px;
+    margin: auto;
+    background: #f4f4f4;
+}
+h1{
+    margin: 20px 10px 10px 10px;
+    font-size:27px;
+    border-bottom: solid;
+}
+.text {
+    margin: 10px 10px 10px 50px;
+    border-style: dashed;
+    padding: 10px;
+    background-color: aliceblue;
+}
+a:hover{
+    color: chartreuse;
+}
