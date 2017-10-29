@@ -14,6 +14,8 @@ img {
     background: #f4f4f4;
 }
 h1{
+    position: relative;
+    padding-left: 40px;
     margin: 20px 10px 10px 10px;
     font-size:27px;
     border-bottom: solid;
@@ -27,3 +29,19 @@ h1{
 a:hover{
     color: chartreuse;
 }
+.picture1 {
+    float: left;
+    width:32px; /*width of your image*/
+    height:32px; /*height of your image*/
+    background-image:url('https://www.uspto.gov/profiles/uspto/themes/uspto_theme/favicon-32x32.png?v=2');
+    margin:0; /* If you want no margin */
+    padding:0; /*if your want to padding */
+    margin-left:10px ;
+}
+/*h1:before{*/
+    /*width:10px; !*width of your image*!*/
+    /*height:10px; !*height of your image*!*/
+    /*background-image:url('http://www.lyricsmode.com/i/upictures/205882.gif');*/
+    /*margin:0; !* If you want no margin *!*/
+    /*padding:0; !*if your want to padding *!*/
+/*}*/

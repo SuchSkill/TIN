@@ -1,0 +1,64 @@
+#header{
+    flex: 1 1 500px;
+    order:0;
+    flex-basis: 100%;
+    margin: auto;
+
+}
+#header>h1{
+    text-align: center
+}
+#logo {
+    margin-top:30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    transform: rotate(10deg);
+    width: 300px;
+    height: 200px;
+    box-shadow: 10px 10px 5px #888888;
+}
+.flex-box{
+    float: left;
+    display:flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 100%;
+
+}
+
+
+.galery{
+    float: left;
+}
+.cal1,
+.cal2,
+.cal3,
+.cal4{
+    margin: 10px;
+    order: 1;
+    flex: 1 1 200px;
+}
+.cal1>img {
+    float: left;
+    margin: 10px;
+}
+.quote{
+    float: left;
+    margin: 10px;
+    color: palevioletred;
+}
+@media screen and (max-width: 800px) {
+
+    .galery{
+        order: 2;
+    }
+    .cal1,
+    .cal2,
+    .cal3,
+    .cal4{
+        order: 1;
+        flex: 1 1 400px;
+    }
+}

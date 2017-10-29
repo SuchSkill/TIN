@@ -1,0 +1,77 @@
+#header{
+    flex: 1 1 500px;
+    order:0;
+    flex-basis: 100%;
+    margin: auto;
+
+}
+#header>h1{
+    text-align: center
+}
+#logo {
+    margin-top:30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    transform: rotate(10deg);
+    width: 300px;
+    height: 200px;
+    box-shadow: 10px 10px 5px #888888;
+}
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "galery cal1 cal2 cal3 cal4"
+   ;
+}
+
+
+.galery{
+    grid-area: galery;
+    float: left;
+}
+.cal1,
+.cal2,
+.cal3,
+.cal4{
+    margin: 10px;
+}
+.cal1{
+    grid-area: cal1;
+}
+.cal2{
+    grid-area: cal2;
+}
+.cal3{
+    grid-area: cal3;
+}
+.cal4{
+    grid-area: cal4;
+}
+.cal1>img {
+    float: left;
+    margin: 10px;
+}
+.quote{
+    float: left;
+    margin: 10px;
+    color: palevioletred;
+}
+@media screen and (max-width: 800px) {
+    .grid{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+    "cal1"
+    "cal2"
+    "cal3"
+    "cal4"
+    "galery";
+
+    }
+
+}
