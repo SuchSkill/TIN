@@ -61,6 +61,11 @@
     color: palevioletred;
 }
 @media screen and (max-width: 800px) {
+    /*body{*/
+        /*background: #000;*/
+    /*}*/
+    
+    
     .grid{
         display:grid;
         grid-template-columns: 1fr;
